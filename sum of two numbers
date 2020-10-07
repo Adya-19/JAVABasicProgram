@@ -1,0 +1,14 @@
+import java.utill.*;
+public class Main
+{
+public static void main(String[] agrs)
+{
+Scanner sc = new Scanner (System.in);
+System.out.print("input the first number");
+int num1 = sc.nextInt();
+System.out.print("input the second number");
+int num2 = sc.nextInt();
+int sum = num1 + num2;
+System.out.println("Sum:" +sum);
+}
+}
